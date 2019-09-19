@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Number</title>
+</head>
+<body>
+<script>
+    function check_Number(str) {
+        let regxn = /[^a-zA-Z ]$/;
+        if(regxn.test(str)){
+            document.write("Number invalid"+'</br>');
+        }else{
+            document.write(" Not Number invalid"+'</br>');
+        }
+
+    }
+    check_Number("(84)-(0978489648)");
+
+
+
+
+</script>
+</body>
+</html>
